@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.post__thumbnail-content img {
+    margin: 0 auto;
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+body:not(.page) .site-content article {
+    padding: 40px 20px;
+    border-bottom: 1px  solid;
+    border-color: var(--go-input--border-color);
+}
+
+body:not(.page) .site-content article:last-child, body.single-post .site-content article {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: none;
+}
+
+.comments-area__wrapper {
+    padding: 0 20px;
+}
+
+@media only screen and (min-width: 700px) {
+    .comments-area__wrapper {
+        padding: 0;
+    }
+}
