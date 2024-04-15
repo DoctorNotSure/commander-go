@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 
 Commander is an extension of the Go theme
-Fork and contribute back to Commander by visiting https://github.com/doctornotsure/commander-wp
+Fork and contribute back to Commander by visiting https://github.com/doctornotsure/commander-go
 
 == Copyright ==
 
